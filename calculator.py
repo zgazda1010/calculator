@@ -42,8 +42,8 @@ def press(num):
 def validate_expression(new_input):
     global expression
     # Check for multiple decimal points in a number
-    if new_input == '.' and expression and '.' in expression.split()[-1]:
-        return False
+    # if new_input == '.' and expression and '.' in expression.split()[-1]:
+        # return False
     return True
 
 
